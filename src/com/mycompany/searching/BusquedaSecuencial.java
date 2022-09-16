@@ -1,7 +1,5 @@
 package com.mycompany.searching;
 
-import jdk.nashorn.internal.scripts.JO;
-
 import javax.swing.*;
 
 /**

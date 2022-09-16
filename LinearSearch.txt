@@ -24,3 +24,9 @@ Linear Search should return index 3 as 5 is on index 3
 
 target = 6
 Linear Search should return -1 as 6 is not present in the array
+
+Búsqueda Lineal o Secuencial
+
+Consiste en recorrer una estructura de datos comparando cada elemento con el valor buscado, si el elemento buscado se
+encuentra al inicio, el tiempo de búsqueda será muy corto, pero será cada vez más largo mientras el elemento se encuentre
+más cerca del final o no se encuentre.
