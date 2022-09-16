@@ -1,9 +1,20 @@
-
-
 Búsqueda binaria
 
 Consiste en recorrer una estructura de datos dividiéndola constantemente en dos partes hasta encontrar la coincidencia
 de búsqueda. Este método requiere que la estructura de datos este previamente ordenada de forma ascendente o descedente.
+
+1. Calcula el elemento medio de la colección.
+2. Compare los elementos clave con el elemento medio.
+3. Si clave = elemento intermedio, devolvemos la posición del índice medio para la clave encontrada.
+4. De lo contrario, si clave> elemento intermedio, la clave se encuentra en la mitad derecha de la colección.
+Por lo tanto, repita los pasos 1 a 3 en la mitad inferior (derecha) de la colección.
+5. Otra clave
+
+Como puede ver en los pasos anteriores, en la búsqueda binaria, la mitad de los elementos de la colección se ignoran
+justo después de la primera comparación.
+
+Además, cuando se usa la recursividad, como se trata de divide y vencerás, también se puede implementar el algoritmo de
+búsqueda binaria iterativa o recursiva.
 
 About this Algorithm
 
